@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: rgb(240, 240, 240);
+  }
+  .Menu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  
+  }
+  .Menu li{
+    padding :6px 10px ;
+    float: left;
+  }
+  .Menu li:hover{
+    background-color:#ddd;
+  }
+  .Menu li a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #111112;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  .Menu li a:hover{
+    color: #0088a9;
+    
+  }
+  .Login {
+    margin-left: 600px;
+    padding: 7px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+    text-decoration: none;
+  }
+  .dau{
+    margin-top: -5px;
+    font-size: 27px;
+    color: #939393;
+  }
+  .dau::after{
+   color: #ddd;
+   
+  }
+
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Header -->
+        <nav>
+            <ul class="Menu">
+                <li><a href="#">Cửa Hàng</a></li>
+                <a class="dau">|</a>
+                <li><a href="#">Hotline: 0909 787 899</a></li>
+                <a class="dau">|</a>
+                <li><a href="#">Trợ giúp</a></li>
+            </ul>
+        </nav>
+        <a href="#"><img src="wooshop-logo.png" alt=""></a>
+    
+    </header>
+</body>
+</html>
